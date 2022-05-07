@@ -25,4 +25,4 @@ setInterval(() => {
     (((hamsterY < topPipeBottomY || hamsterY > topPipeBottomY + pipeGap) && pipeX < hamsterSize) // hamster hit pipe 
     || hamsterY > canvasSize) && // hamster falls of screen
     ((hamsterDY = 0), (hamsterY = 200), (pipeX = canvasSize), (score = 0)); // hamster died
-}, interval)
+}, interval) 
